@@ -9,7 +9,7 @@ h1 {
    font-family: Nerko One ,cursive ;
     color: #e39700;
     text-align: center;
-    font-size: 50px;
+    font-size: 55px;
 }
 
 #title .type{
@@ -22,6 +22,9 @@ h1 {
     font-size: 28px;
     color: hsl(240, 16%, 35%);
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
+}
+#title .title span{
+    display: none;
 }
 #card {
     padding: 10px 20px;
@@ -59,13 +62,18 @@ h1 {
 #logo #written{
     display: none;
 }
+.image-central img{
+    width: 100%;
+    padding: 10px 20px;
+    display: none;
+}
 #main-bottom{
     padding-top: 25px;
 }
 #main-bottom .title-bottom {
     padding: 10px 20px;
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
-    font-size: 28px;
+    font-size: 35px;
 }
 #main-bottom .image-bottom img{
     width: 70%;
@@ -103,10 +111,160 @@ footer .row-bottom{
 }
 footer .row-bottom .col{
     flex-wrap:wrap ;
+    padding: 10px 100px;
 }
 footer .row-bottom .col a{
-    margin: 0 18px;
+    margin: 0 20px;
     color: white;
     font-size: 17px;
 }
 
+   /* Media Query Tablet */
+@media screen and ( min-width:768px ){
+    h1 {
+        font-family: Nerko One ,cursive ;
+         color: #e39700;
+         text-align: left;
+         font-size: 45px;
+         padding-left: 10px;
+     }
+     #title {
+        padding: 20px 35px;
+    }
+     #title .type{
+        font-size: 15px;
+        color:hsl(0, 2%, 72%) ;
+        margin: 8px 0;
+        font-family: Montserrat, 'Helvetica Neue', sans-serif;
+    }
+    #title .title span{
+        display: inline-block;
+    }
+    #card {
+        padding: 20px 35px;
+    }
+    #card .list .row{
+        margin: 0 25px 25px 25px;
+        padding: 20px 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #card .list .col-1{
+        min-width: 100%;
+        margin: 30px 0;
+        font-size: 20px;
+        font-family: Montserrat, 'Helvetica Neue', sans-serif;
+    }
+    #card .list .col{
+        padding: 20px 70px 20px 0;
+        margin:30px 0px ;
+        font-family: Montserrat, 'Helvetica Neue', sans-serif;
+        width: 20%;
+    }
+    #logo{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 35px;
+    }
+    #logo #icon{
+        background-color: white;
+        border: 3px solid white;
+        padding: 10px 50px;
+        border-radius: 40%;
+    }
+    .image-central img{
+        width: 90%;
+        padding: 20px 35px;
+        display: inline-block;
+    }  
+    #main-bottom .title-bottom {
+        padding: 20px 35px;
+        font-family: Montserrat, 'Helvetica Neue', sans-serif;
+        font-size: 35px;
+    }
+    #main-bottom .image-bottom img{
+        margin: 35px 85px;
+    }
+    #main-bottom .text .text-bottom{
+        padding: 20px 35px;
+        font-family: Montserrat, 'Helvetica Neue', sans-serif;
+        font-size:18px ;
+    }
+    footer .row-top{
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+        color: white;
+        font-size: 18px;
+    }
+    footer .row-bottom{
+        padding: 0;
+    }
+    footer .row-bottom .col{
+         padding: 10px 0;
+    }
+    footer .row-bottom .col a{
+        margin: 0 18px;
+        color: white;
+        font-size: 17px;
+    }
+}
+   /* Media Query Desktop */
+@media  screen and (min-width: 992px) {
+    #title h1{
+        margin-top:5px ;
+        margin-bottom: 35px;
+    }
+    #title{
+        padding: 20px 120px;
+    }
+    #card{
+        display: flex;
+        padding: 30px 120px;
+    }
+    #card .image{
+        width: 70%;
+    }
+   
+    #card .list {
+        width: 30%;
+        display: inline-block;
+    }
+    #card .list .row{
+        margin: 0;
+        padding: 0;
+    }
+    
+    #card .list .col-1{
+        font-size: 20px;
+        font-family: Montserrat, 'Helvetica Neue', sans-serif;
+        width: 100%;
+        margin: 0 20px;
+        padding: 20px 5px;
+    }
+    #card .list .col{
+        font-family: Montserrat, 'Helvetica Neue', sans-serif;
+        width: 100%;
+        margin: 0 20px;
+        padding: 8px 5px;
+    }
+    #logo{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 120px;
+    }
+    #logo #written{
+        display: inline-block;
+    }
+    #logo #icon{
+        background-color: white;
+        border: 3px solid white;
+        padding: 3px 20px;
+        border-radius: 20%;
+    }
+    #logo #icon > i{
+        margin: 2px 4px;
+    }
+   
+    
+}
