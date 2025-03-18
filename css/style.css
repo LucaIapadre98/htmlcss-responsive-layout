@@ -173,7 +173,7 @@ footer .row-bottom .col a{
         border-radius: 40%;
     }
     .image-central img{
-        width: 90%;
+        width: 93%;
         padding: 20px 35px;
         display: inline-block;
     }  
@@ -209,6 +209,7 @@ footer .row-bottom .col a{
         font-size: 17px;
     }
 }
+
    /* Media Query Desktop */
 @media  screen and (min-width: 992px) {
     #title h1{
@@ -264,6 +265,50 @@ footer .row-bottom .col a{
     }
     #logo #icon > i{
         margin: 2px 4px;
+    }
+    .image-central img{
+        width: 76%;
+        padding: 30px 120px;
+        display: inline-block;
+    }  
+    #main-bottom .title-bottom {
+        padding: 30px 120px;
+        font-family: Montserrat, 'Helvetica Neue', sans-serif;
+        font-size: 35px;
+    }
+    #main-bottom .image-bottom img{
+        width: 30%;
+        padding: 30px 120px;
+        margin: 35px 0;
+    }
+    #main-bottom .text .text-bottom{
+        padding: 10px 120px;
+        font-family: Montserrat, 'Helvetica Neue', sans-serif;
+        font-size:18px ;
+    }
+    footer{
+        width: 100%;
+        background-color: #740be4b3;
+        display: flex;
+        justify-content: space-between;
+        height: 90px;
+    }
+    footer .row-top{
+        width: 50%;
+        text-align: left;
+       padding-top: 10px;
+        color: white;
+        font-size: 13px;
+    }
+    footer .row-bottom{
+        width: 50%;
+        text-align: right;
+        padding: 20px 0;
+    }
+    footer .row-bottom .col a{
+        margin: 0 20px;
+        color: white;
+        font-size: 11px;
     }
    
     
