@@ -76,3 +76,37 @@ h1 {
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
     font-size:18px ;
 }
+footer{
+    width: 100%;
+    background-color: #740be4b3;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+}
+footer .row-top{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+footer .row-bottom{
+    width: 100%;
+}
+footer .row-top .col{
+ margin-top: 10px;
+}
+footer .row-bottom{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+footer .row-bottom .col{
+    flex-wrap:wrap ;
+}
+footer .row-bottom .col a{
+    margin: 0 18px;
+    color: white;
+    font-size: 17px;
+}
+
