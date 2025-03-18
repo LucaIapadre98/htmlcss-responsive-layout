@@ -48,4 +48,31 @@ h1 {
 #logo{
     display: flex;
     justify-content: space-between;
+    padding: 10px 20px;
+}
+#logo #icon{
+    background-color: white;
+    border: 3px solid white;
+    padding: 12px;
+    border-radius: 50%;
+}
+#logo #written{
+    display: none;
+}
+#main-bottom{
+    padding-top: 25px;
+}
+#main-bottom .title-bottom {
+    padding: 10px 20px;
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+}
+#main-bottom .image-bottom img{
+    width: 70%;
+    margin: 35px 85px;
+}
+#main-bottom .text .text-bottom{
+    padding: 10px 20px;
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+    font-size:18px ;
 }
